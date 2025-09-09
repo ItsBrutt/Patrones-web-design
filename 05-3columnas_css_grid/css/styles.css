@@ -49,3 +49,18 @@ p {
 
 
 /** CODIGO AQUI **/
+@media (min-width: 768px) {
+    .contenedor-grid {
+        display: grid;
+        grid-template-areas: "sidebar-1 contenido-principal sidebar-2";
+        grid-template-columns: 20% 60% 20%;
+        grid-auto-flow: column;
+        column-gap: 2rem;
+    }
+    .contenido-principal {
+        grid-area: contenido-principal;
+    }
+    .sidebar-1 {
+        grid-area: sidebar-1;
+    }
+}
