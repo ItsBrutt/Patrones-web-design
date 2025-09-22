@@ -53,22 +53,16 @@ p {
         display: flex;
         justify-content: space-between;
     }
-
+    .sidebar{
+        flex-basis: calc(20% - 1.6rem);
+    }
     .contenido-principal {
         order: 2;
-        flex-basis: 60%;
+        flex-basis:calc(60% - 1.6rem);  ;
     }
 
     .sidebar-1 {
-        order: 1;
-        flex-basis: 20%;
-        margin-right: 20px;
-    }
-
-    .sidebar-2 {
-        order: 3;
-        flex-basis: 20%;
-        margin-left: 20px;
+        order: -1;
     }
     
 }
