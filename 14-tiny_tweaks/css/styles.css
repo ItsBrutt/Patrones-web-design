@@ -50,3 +50,16 @@ p {
 }
 
 /** CODIGO AQUI **/
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem; 
+    font-size: 2rem;
+}
+@media (min-width: 768px){
+    h1{
+        font-size: 4rem;
+        text-align: left;
+    }
+    
+}
